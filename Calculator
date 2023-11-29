@@ -1,0 +1,40 @@
+# include<stdio.h>
+int sum()
+{
+int A,B,sum;
+scanf("%d%d",&A,&B);
+sum=A+B;
+printf("The Sum Is = %d\n",sum);
+return 0;
+}
+int subtraction()
+{
+int A,B,sub;
+scanf("%d%d",&A,&B);
+sub=A-B;
+printf("The Subtraction Is = %d\n",sub);
+return 0;
+}
+int division()
+{
+int A,B,div;
+scanf("%d%d",&A,&B);
+div=A/B;
+printf("The Division Is = %d\n",div);
+return 0;
+}
+int multiply()
+{
+int A,B,multi;
+scanf("%d%d",&A,&B);
+multi=A*B;
+printf("The Multiply Is = %d\n",multi);
+return 0;
+}
+int main(){
+sum();
+subtraction();
+division();
+multiply();
+return 0;
+}
